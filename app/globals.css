@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+
+.brother,.badoo,.babe,#container,#content{
+ scrollbar-width: none;
+ -ms-text-style:none;
+}
+#container::-webkit-scrollbar,#content::-webkit-scrollbar,.brother::-webkit-scrollbar,.babe::-webkit-scrollbar,.badoo::-webkit-scrollbar{
+  display: none;
+}
